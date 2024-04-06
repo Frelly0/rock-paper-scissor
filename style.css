@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Reddit+Mono:wght@200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+}
+
+
+body {
+    background-color: rgb(52, 58, 58);
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    h1 {
+        font-size: 45px
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    gap: 40px;
+}
+
+.displayResult {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+.playerOpt {
+    display: flex;
+    gap: 35px;
+}
+
+img {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
